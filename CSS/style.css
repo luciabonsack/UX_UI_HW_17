@@ -260,3 +260,52 @@ gap: 10px;
     font-weight: 400;
     line-height: normal;
 }
+
+footer {
+    display: flex;
+padding: 110px 0px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+#fContact {
+    display: flex;
+align-items: center;
+gap: 21px;
+align-self: stretch;
+}
+
+#fContact h4 {
+    color: var(--Lt-warm-grey, #D8D2C3);
+font-family: "Mrs Saint Delafield";
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 62.4px */
+}
+
+#fWords {
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 22px;
+max-width: 739px;
+}
+
+#writeImg {
+    display: flex;
+height: 268.72px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+gap: 10px;
+}
+
+.fLinks {
+    display: flex;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
